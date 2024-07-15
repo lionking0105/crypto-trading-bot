@@ -35,17 +35,7 @@ TODOS:
 
 - [Huobi Global](https://www.hbg.com/) (margin)
 
-## Technical stuff and packages
 
-- node.js
-- sqlite3
-- [technicalindicators](https://github.com/anandanand84/technicalindicators)
-- [tulipindicators - tulind](https://tulipindicators.org/list)
-- [TA-Lib](https://mrjbq7.github.io/ta-lib/)
-- twig
-- express
-- Bootstrap v4
-- Tradingview widgets
 
 ## How to use
 
