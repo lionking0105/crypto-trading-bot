@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/mightyeagle329/crypto-trading-bot/actions/workflows/node.js.yml/badge.svg)](https://github.com/Haehnchen/crypto-trading-bot/actions/workflows/node.js.yml)
 
-A **work in progress** Cryptocurrency for common exchanges like Bitfinex, Bitmex and Binance.
+A Cryptocurrency for common exchanges like Bitfinex, Bitmex and Binance.
 As most trading bots just provide basic buy and sell signals they provide many stuff to get profitable eg exchange orders like stop-losses or stop-limits are not supported by main bots. Also the limitation of fixed timeframe and technical indicators must be broken
 
 **Not production ready** only basic functionality
