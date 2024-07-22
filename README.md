@@ -1,6 +1,6 @@
 # Crypto Trading Bot
 
-[![Build Status](https://github.com/mightyeagle329/crypto-trading-bot/actions/workflows/node.js.yml/badge.svg)](https://github.com/Haehnchen/crypto-trading-bot/actions/workflows/node.js.yml)
+[![Build Status](https://github.com/lionking0105/crypto-trading-bot/actions/workflows/node.js.yml/badge.svg)](https://github.com/Haehnchen/crypto-trading-bot/actions/workflows/node.js.yml)
 
 A Cryptocurrency for common exchanges like Bitfinex, Bitmex and Binance.
 As most trading bots just provide basic buy and sell signals they provide many stuff to get profitable eg exchange orders like stop-losses or stop-limits are not supported by main bots. Also the limitation of fixed timeframe and technical indicators must be broken
@@ -101,32 +101,9 @@ After this you can use `docker-compose` which will give you a running bot via <h
 First, you'll need to create a bot for Telegram. Just talk to [BotFather](https://telegram.me/botfather) and follow simple steps until it gives you a token for it.
 You'll also need to create a Telegram group, the place where you and crypto-trading-bot will communicate. After creating it, add the bot as administrator (make sure to uncheck "All Members Are Admins").
 
-### Retrieving Chat IDs
 
-Invite `@RawDataBot` to your group and get your group id in sended chat id field
 
-```text
-Message
- ├ message_id: 338
- ├ from
- ┊  ├ id: *****
- ┊  ├ is_bot: false
- ┊  ├ first_name: 사이드
- ┊  ├ username: ******
- ┊  └ language_code: en
- ├ chat
- ┊  ├ id: -1001118554477
- ┊  ├ title: Test Group
- ┊  └ type: supergroup
- ├ date: 1544948900
- └ text: A
-```
 
-Look for id: -1001118554477 is your chat id (with the negative sign).
-
-### Log messages to Telegram
-
-For example setup, check `conf.json.dist file`, log.telegram section , set chatId, token, level (default is info). Check more options https://github.com/ivanmarban/winston-telegram#readme
 
 ## Webserver
 
